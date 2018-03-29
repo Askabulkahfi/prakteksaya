@@ -10,6 +10,12 @@ public class Bantalaksi {
         r1.cetakInfo();
         System.out.println("Luas Bantal ="+r1.hitungluas());
         r1.cetakLuas();
+    
+        Bantal r2= new Bantal();
+        r2.cetakInfo();
+                
+        Bantal r3= new Bantal();
+        r3.cetakInfo();
     }
 
     

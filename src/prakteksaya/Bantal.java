@@ -7,12 +7,17 @@ public class Bantal {
         panjang = 4;
         lebar = 6;
     }
+
+    public Bantal(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
     
     
     
     void cetakInfo(){
-          System.out.println("Panjang       :"+lebar);
-          System.out.println("Panjang       :"+panjang); 
+          System.out.println("Panjang   :"+lebar);
+          System.out.println("Panjang   :"+panjang); 
     }
     
     double hitungluas (){
@@ -23,6 +28,6 @@ public class Bantal {
     }
     
     void cetakLuas(){
-        System.out.println("Luasnya adalah: "+hitungLuas());
+        System.out.println("Luasnya adalah: +hitungLuas()");
     }
 }
