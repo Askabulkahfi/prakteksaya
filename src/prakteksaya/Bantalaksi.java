@@ -9,6 +9,7 @@ public class Bantalaksi {
         
         r1.cetakInfo();
         System.out.println("Luas Bantal ="+r1.hitungluas());
+        r1.cetakLuas();
     }
 
     
