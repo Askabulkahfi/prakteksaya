@@ -8,5 +8,12 @@ public class Bantal {
           System.out.println("Panjang       :"+panjang); 
     }
     
-    
+    double hitungluas (){
+        double luas;
+        luas=panjang*lebar;
+        return luas;
+        
+      
+   
+    }
 }

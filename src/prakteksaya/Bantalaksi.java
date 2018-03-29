@@ -8,6 +8,7 @@ public class Bantalaksi {
         r1.lebar = 8;
         
         r1.cetakInfo();
+        System.out.println("Luas Bantal ="+r1.hitungluas());
     }
 
     
