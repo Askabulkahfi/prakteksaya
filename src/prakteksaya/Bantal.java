@@ -2,6 +2,13 @@ package prakteksaya;
 public class Bantal {
     double panjang;
     double lebar;
+
+    public Bantal() {
+        panjang = 4;
+        lebar = 6;
+    }
+    
+    
     
     void cetakInfo(){
           System.out.println("Panjang       :"+lebar);
